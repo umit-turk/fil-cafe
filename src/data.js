@@ -418,7 +418,7 @@ const menu = [
     title: "San Sebastian",
     category: "Tatlılar",
     category_id: 7,
-    price: 7,
+    price: 35,
     img: "./images/san-sebastian.jpg",
   },
   {
