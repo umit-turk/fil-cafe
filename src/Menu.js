@@ -1,12 +1,11 @@
 import React from "react";
 
 const Menu = ({ items }) => {
-  console.log(items,"1")
   return (
     <div className="section-center">
       {items.map((item) => {
         const { id, title, img, desc, price,   } = item;
-        console.log(item,2)
+
         return (
           <article key={id} className="menu-item">
             <img src={img} alt={title} className="photo" />

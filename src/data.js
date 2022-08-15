@@ -1,41 +1,4 @@
-/* const icerik = [
-  {
-    category: "Kahveler",
-    category_id: 1,
-    img: "../images/kahveler.svg",
-  },
-  {
-    category: "Türk Kahvesi",
-    category_id: 2,
-    img: "../images/turkish.svg",
-  },
-  {
-    category: "Sıcak İçecekler",
-    category_id: 3,
-    img: "../images/sicak.svg",
-  },
-  {
-    category: "Soğuk Kahveler",
-    category_id: 4,
-    img: "../images/soguk_kahve.svg",
-  },
-  {
-    category: "Soğuk İçecekler",
-    category_id: 5,
-    img: "../images/soguk_icecek.svg",
-  },
-  {
-    category: "Sandwich",
-    category_id: 6,
-    img: "../images/tatli.svg",
-  },
-  {
-    category: "Fil Special",
-    category_id: 7,
-    img: "../images/special.svg",
-  },
-];
- */
+
 const menu = [
   /* kahveler */
   {
