@@ -65,10 +65,14 @@ p {
 }
 
 .btn-container {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+ overflow-x: scroll;
+ 
+}
+
+.btn-container::-webkit-scrollbar{
+  display: none;
 }
 
 .filter-btn {
