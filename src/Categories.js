@@ -5,7 +5,7 @@ const Categories = ({ categories, filterItems, activeCategory }) => {
 
   
   return (
-    <div className="btn-container">
+    <div className=" horizontal-scroll-wrapper">
       
       {categories.map((category, index) => {
         console.log(category.length);
