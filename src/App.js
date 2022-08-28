@@ -80,7 +80,9 @@ const App = () => {
                 }}
               >
                 <div className="working-days">
+                  <div>
                   P.tesi, Salı, Çarşamba, Perşembe, Cuma, C.tesi, Pazar <br />{" "}
+                  </div>
                   <div
                     className="hour"
                   >
@@ -102,7 +104,7 @@ const App = () => {
                   height: "10vh",
                 }}
               >
-                <div style={{marginTop:0}} className="hour">Adres <br />
+                <div  className="hour">Adres <br />
                 <div className="working-days">Dumlupınar mahallesi. Gizem caddesi. No:16A <br /> Nilüfer / Bursa</div>
                 </div>
               </Popup>

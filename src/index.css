@@ -264,8 +264,13 @@ span {
 }
 .working-days{
   color: hsl(209, 61%, 16%);
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
 }
 .hour{
   color: #c59d5f;
