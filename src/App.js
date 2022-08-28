@@ -73,17 +73,38 @@ const App = () => {
                 trigger={<h4 className="sidebar-item">Çalışma saatleri </h4>}
                 modal
                 closeOnDocumentClick
-                contentStyle={{borderRadius:10}}
+                contentStyle={{
+                  borderRadius: 10,
+                  width: "90%",
+                  height: "10vh",
+                }}
               >
-               <div style={{height:100}}></div>
+                <div className="working-days">
+                  P.tesi, Salı, Çarşamba, Perşembe, Cuma, C.tesi, Pazar <br />{" "}
+                  <div
+                    className="hour"
+                  >
+                    10.00 - 01.00
+                  </div>
+                </div>
               </Popup>
               <Popup
-                trigger={<h4 style={{marginTop:30}} className="sidebar-item">İletişim</h4>}
+                trigger={
+                  <h4 style={{ marginTop: 30 }} className="sidebar-item">
+                    İletişim
+                  </h4>
+                }
                 modal
                 closeOnDocumentClick
-                contentStyle={{borderRadius:10}}
+                contentStyle={{
+                  borderRadius: 10,
+                  width: "90%",
+                  height: "10vh",
+                }}
               >
-                <div style={{height:100}}></div>
+                <div style={{marginTop:0}} className="hour">Adres <br />
+                <div className="working-days">Dumlupınar mahallesi. Gizem caddesi. No:16A <br /> Nilüfer / Bursa</div>
+                </div>
               </Popup>
             </ul>
           </nav>
