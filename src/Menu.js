@@ -1,15 +1,10 @@
 import React, { useState } from "react";
 
-
 const Menu = ({ items }) => {
-
-  
-
   return (
     <div className="section-center">
-      
       {items.map((item) => {
-        const { id, title, img, desc, price,   } = item;
+        const { id, title, img, desc, price } = item;
 
         return (
           <article key={id} className="menu-item">
@@ -19,7 +14,9 @@ const Menu = ({ items }) => {
                 <h4>{title}</h4>
                 <h4 className="price">{price}tl</h4>
               </header>
-              <p className="item-text">{item?.types ? item?.types.map((elm,i) => elm)  : null}</p>
+              <p className="item-text">
+                {item?.types ? item?.types.map((elm, i) => elm) : null}
+              </p>
             </div>
           </article>
         );

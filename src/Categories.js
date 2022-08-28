@@ -1,23 +1,18 @@
 import React from "react";
 
-
 const Categories = ({ categories, filterItems, activeCategory }) => {
-
-  
   return (
     <div className=" horizontal-scroll-wrapper">
-      
       {categories.map((category, index) => {
-        console.log(category.length);
-       let styles = {
-        widthBtn : { width: category.length > 8 ? 160 : 90}
-       }
+        let styles = {
+          widthBtn: { width: category.length > 8 ? 160 : 90 },
+        };
         return (
           <button
             type="button"
-          style={styles.width}
+            style={styles.width}
             className={`${
-              activeCategory === category ? "filter-btn active" : "filter-btn" 
+              activeCategory === category ? "filter-btn active" : "filter-btn"
             }`}
             key={index}
             onClick={() => filterItems(category)}
@@ -26,7 +21,6 @@ const Categories = ({ categories, filterItems, activeCategory }) => {
           </button>
         );
       })}
-      
     </div>
   );
 };
