@@ -104,8 +104,8 @@ const App = () => {
                   height: "10vh",
                 }}
               >
-                <div  className="hour">Adres <br />
-                <div className="working-days">Dumlupınar mahallesi. Gizem caddesi. No:16A <br /> Nilüfer / Bursa</div>
+                <div style={{marginTop:1}} className="hour">Adres <br />
+                <div style={{marginTop:3}} className="working-days">Dumlupınar mahallesi. Gizem caddesi. No:16A <br /> Nilüfer / Bursa</div>
                 </div>
               </Popup>
             </ul>
